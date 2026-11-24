@@ -1,5 +1,20 @@
 # NeuralAttentionlib.jl
 
+<!-- wardjm-fork-note -->
+> [!NOTE]
+> **This is a maintained fork of [chengchingwen/NeuralAttentionlib.jl](https://github.com/chengchingwen/NeuralAttentionlib.jl).** The upstream package is no longer
+> actively updated, so I'm keeping this fork working with current Julia and current versions of its
+> dependencies (Flux 0.16, Zygote 0.7, NNlib 0.9.42+, CUDA/cuDNN 6, GPUArrays 12 and AMDGPU 2). The fork keeps the original package name and UUID but is not
+> registered in General, so install it by URL:
+>
+> ```julia
+> using Pkg
+> Pkg.add(url = "https://github.com/wardjm/NeuralAttentionlib.jl")
+> ```
+>
+> Issues and pull requests are welcome on this fork.
+
+
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://chengchingwen.github.io/NeuralAttentionlib.jl/stable)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://chengchingwen.github.io/NeuralAttentionlib.jl/dev)
 [![Build Status](https://github.com/chengchingwen/NeuralAttentionlib.jl/workflows/CI/badge.svg)](https://github.com/chengchingwen/NeuralAttentionlib.jl/actions)
